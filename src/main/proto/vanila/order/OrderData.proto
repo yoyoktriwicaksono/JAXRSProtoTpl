@@ -1,0 +1,8 @@
+package vanila.protobuf.order;
+option java_package = "com.rest.order.data";
+option java_outer_classname = "OrderData";
+
+message Order {
+    optional string id = 1;
+    optional string application = 2;
+}
